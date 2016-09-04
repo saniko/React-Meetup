@@ -1,6 +1,7 @@
 Basically extending the documentation for educational purposes.
 
 Universal app - why?
+
 1. SEO
 2. Performance
 3. Cross device support
