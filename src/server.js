@@ -16,11 +16,14 @@ import { ReduxAsyncConnect, loadOnServer } from 'redux-connect'
 
 const app = new Express()
 
+// start middleware
+// executes every time we hit the server
 app.use((req, res) => {
-  if (__DEVELOPMENT__) {
+  if (__DEVELOPMENT__) { // this boolean flag is set on webpack.
     // Do not cache webpack stats: the script file would change since
     // hot module replacement is enabled in the development env
-    webpackIsomorphicTools.refresh()
+    webpackIsomorphicTools.refresh() // library - required assets (img, css, sass) in client code
+                                     // basically dont cache these assets in development mode.
   }
   const client = new ApiClient(req)
   const memoryHistory = createHistory(req.originalUrl)
