@@ -25,11 +25,12 @@ app.use((req, res) => {
     webpackIsomorphicTools.refresh() // library - required assets (img, css, sass) in client code
                                      // basically dont cache these assets in development mode.
   }
-  const client = new ApiClient(req)
-  const memoryHistory = createHistory(req.originalUrl)
-  const store = createStore(memoryHistory, client)
-  const history = syncHistoryWithStore(memoryHistory, store)
-
+  const client = new ApiClient(req) // http request
+  const memoryHistory = createHistory(req.originalUrl) // save all routing 
+  const store = createStore(memoryHistory, client) // create Redux store
+  const history = syncHistoryWithStore(memoryHistory, store) // sync history with the store
+  
+  // stringify our component + application state (store) + application assets
   function hydrateOnClient() {
     res.send('<!doctype html>\n' +
       ReactDOM.renderToString(<Html assets={webpackIsomorphicTools.assets()} store={store} />))
