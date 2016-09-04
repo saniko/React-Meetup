@@ -1,4 +1,10 @@
-Basically extending the documentation for educational purposes
+Basically extending the documentation for educational purposes.
+
+Universal app - why?
+1. SEO
+2. Performance
+3. Cross device support
+4. Same code base
 
 # React-Meetup
 
