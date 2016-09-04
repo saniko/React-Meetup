@@ -1,3 +1,5 @@
+Basically extending the documentation for educational purposes
+
 # React-Meetup
 
 https://github.com/reactjs/react-router/blob/master/docs/guides/ServerRendering.md
