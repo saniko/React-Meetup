@@ -22,6 +22,7 @@ Universal app - How?
 4. Optionally dispatch some actions.
 5. Pull the state out of store.
 6. Pass the state along to the client.
+7. Package & send the HTML to the client
 
 Check server.js for detailed comments.
 
