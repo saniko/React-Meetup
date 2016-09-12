@@ -18,7 +18,9 @@ Universal app - How?
 
 Check server.js for detailed comments.
 
-# React-Meetup
+# Links:
+Universal rect explained
+https://ifelse.io/2015/08/27/server-side-rendering-with-react-and-react-router/
 
 https://github.com/reactjs/react-router/blob/master/docs/guides/ServerRendering.md
 
