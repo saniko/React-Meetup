@@ -1,6 +1,7 @@
 Basically extending the documentation for educational purposes.
 
 Universal app - main players on server side:
+
 1. react
 2. react-router
 3. react-redux
