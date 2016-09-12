@@ -6,6 +6,7 @@ Universal app - Why?
 2. Performance
 3. Cross device support
 4. Same code base
+5. Catching current trends ;)
 
 Universal app - How?
 
