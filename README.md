@@ -31,6 +31,9 @@ Universal rect explained
 
 https://ifelse.io/2015/08/27/server-side-rendering-with-react-and-react-router/
 
+https://www.codementor.io/reactjs/tutorial/redux-server-rendering-react-router-universal-web-app
+
+
 https://github.com/reactjs/react-router/blob/master/docs/guides/ServerRendering.md
 
 https://github.com/makeomatic/redux-connect/
