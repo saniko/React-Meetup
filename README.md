@@ -13,6 +13,7 @@ Universal app - Why?
 3. Cross device support
 4. Same code base
 5. Catching current trends ;)
+6. Non js users (?)
 
 Universal app - How?
 
