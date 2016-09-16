@@ -24,7 +24,7 @@ Universal app - How?
 3. Create a fresh, new Redux store instance on every request.On the client side, a new Redux store will be created and initialized with     the state provided from the server.
 4. Optionally dispatch some actions.
 5. Pull the state out of store.
-6. Pass the state along to the client (dehydration - extracting state into an object * ).
+6. Pass the state along to the client (dehydration - extracting state into an object +b* ).
 7. Package & send the HTML to the client
 
 Check server.js for detailed comments.
