@@ -24,7 +24,7 @@ Universal app - How?
 3. Create a fresh, new Redux store instance on every request.On the client side, a new Redux store will be created and initialized with     the state provided from the server.
 4. Optionally dispatch some actions.
 5. Pull the state out of store.
-6. Pass the state along to the client.
+6. Pass the state along to the client (dehydration - extracting state into an object * ).
 7. Package & send the HTML to the client
 
 Check server.js for detailed comments.
@@ -46,3 +46,6 @@ https://github.com/makeomatic/redux-connect/
 [Salvatore Mazzarino](https://github.com/strvcom/React-Meetup/blob/master/static/SalvatoreMazzarino-React-Meetup.key)
 
 [Daniel Hejl](https://github.com/strvcom/React-Meetup/blob/master/static/DanielHejl-STRV-React.js-meetup.key)
+
+#*
+Say I want to pre-render my app on the server, serve the html to the client, then re-render my app on the client. This would be trivial if my app only consisted of static data. However, my app is stateful: it retrieves data from my API before the initial render and stores it. By extracting the state of my app on the server, sending it along with the HTML, then reinjecting it on the client, I avoid making two requests to my API.
