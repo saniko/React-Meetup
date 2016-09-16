@@ -14,6 +14,7 @@ Universal app - Why?
 4. Same code base (sharing of logic)
 5. Catching current trends ;)
 6. Non js users (?)
+
 In general, benefits for engineering, reusability, performance and SEO
 
 Universal app - How?
