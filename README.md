@@ -4,7 +4,7 @@ Universal app - main players on server side:
 
 1. react
 2. react-router
-3. react-redux
+3. react-redux - http://redux.js.org/docs/recipes/ServerRendering.html
 
 Universal app - Why?
 
