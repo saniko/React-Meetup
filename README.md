@@ -3,7 +3,9 @@ Basically extending the documentation for educational purposes.
 Universal app - main players on server side:
 
 1. react
-2. react-router
+2. react-router - https://github.com/ReactTraining/react-router/blob/master/docs/guides/ServerRendering.md
+    1. match to match the routes to a location without rendering
+    2. RouterContext for synchronous rendering of route components
 3. react-redux - http://redux.js.org/docs/recipes/ServerRendering.html
 
 Universal app - Why?
